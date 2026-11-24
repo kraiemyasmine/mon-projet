@@ -1,0 +1,6 @@
+services:
+  web:
+    image: yasminekraiem/monapp:latest
+    ports:
+      - "8082:80"
+    restart: unless-stopped
